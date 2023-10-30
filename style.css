@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.text_field {
+    font-style: normal;
+    color: #000000;
+    padding-right: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: inline;
+}
+
+input[type="text"], input[type="range"] {
+    width: 100%;
+    padding: 9px;
+    border: 2px solid #ccc;
+}
+.tip_calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a29d9d;
+    padding: 20px;
+    color: black;
+}
+
+input[type="range"] {
+    background-color: #fff;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    background: black;
+    border-radius: 50%;
+    
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #ccc;
+    width: 100%;
+    height: 6px;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+}
+
+input[type="range"][disabled] {
+    background-color: #fff8f8;
+}
+
+input[type="text"] {
+    background-color: #f9f9f9;
+}
+
+input[type="text"][disabled] {
+    background-color: #eee;
+    color: #302f2f;
+}
+
